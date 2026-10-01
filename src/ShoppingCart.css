@@ -1,0 +1,35 @@
+/* الحاوية الأساسية للسلة */
+.cart-container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  height: fit-content; /* عشان الكارت يطول على قد المحتوى بس وميمطش للآخر */
+}
+
+.cart-title {
+  color: #c73a0f;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+.empty-cart-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.empty-cart-img {
+  width: 140px;
+  margin-bottom: 20px;
+}
+
+.empty-cart-text {
+  color: #87635a;
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin: 0;
+}
